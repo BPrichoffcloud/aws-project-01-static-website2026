@@ -10,20 +10,26 @@ I created and deployed a static website using Amazon S3.
 - Static Website Hosting
 - Bucket Policy
 - Public Access Settings
+## Technologies
 
+- Amazon S3
+- HTML
+- Static Website Hosting
+- Bucket Policies
+- Public Access Configuration
 ## Architecture
 
 ```text
-User
-  |
-  v
-S3 Website Endpoint
-  |
-  v
-Amazon S3 Bucket
-  |
-  v
-index.html
+            User
+              │
+              ▼
+      S3 Website Endpoint
+              │
+              ▼
+       Amazon S3 Bucket
+              │
+              ▼
+          index.html
 ```
 
 ## How It Works
@@ -45,3 +51,20 @@ index.html
 ## Result
 
 Successfully deployed my first static website using Amazon S3.
+## Screenshots
+
+### 1. S3 Bucket Objects
+
+![S3 Bucket Objects](screenshots/01-bucket-objects.png)
+
+### 2. Static Website Hosting
+
+![Static Website Hosting](screenshots/02-static-website-hosting.png)
+
+### 3. Bucket Permissions & Policy
+
+![Bucket Permissions](screenshots/03-permissions-and-bucket-policy.png)
+
+### 4. Live Website
+
+![Live Website](screenshots/04-live-website.png)
